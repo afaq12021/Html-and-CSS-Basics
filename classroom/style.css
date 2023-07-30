@@ -1,0 +1,145 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    
+    background-color: #0f1111;
+    border: solid 5px white;
+    height:60px;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+
+ .contentBox{
+    color: #0f1111;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+ }
+
+ #content{
+    
+    height: 700px;
+ }
+
+ footer{
+    
+    background-color: #0f1111;
+    text-align: center;
+
+ } */
+
+ /* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+ } */
+/* 
+ div{
+    height: 100px;
+    width: 100px;
+    background-image: url(nature.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+ } */
+
+ /* body{
+    text-align: center;
+ }
+
+ div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+
+ }
+
+ #container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ #box1{
+    background-color: aqua;
+ }
+ 
+ #box2{
+    background-color: blue;
+ }
+ 
+ #box3{
+    background-color:blueviolet;
+ }
+ #box4{
+    background-color: yellow;
+ }
+ #box5{
+    background-color:brown;
+ } */
+
+ /* .navbar{
+   background-color: pink;
+   display: flex;
+   justify-content:space-evenly;
+
+ }
+
+ a{
+   color: red;
+   text-decoration: none;
+   
+ }
+
+ li{
+   list-style-type: none;
+   display: inline;
+   
+ } */
+
+ .loader {
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   border: 20px solid #FFE66D;
+   border-top: 20px solid #4ECDC4;
+   animation: spinAnimate;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+ }
+
+ @keyframes spinAnimate{
+   from{
+      transform: rotate(0deg);
+   }
+   to{
+      transform: rotate(360deg);
+   }
+ }
+
+
